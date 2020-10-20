@@ -1,0 +1,19 @@
+marquee{
+	color :red;
+	background: brown;
+	font-size: 20;
+}
+#c1{
+	color: black;
+	background-color: green;
+	font-size: 30px; 
+}
+#c2{
+	color: blue;
+	background-color: pink;
+	font-size: 40px;
+}
+img{
+	max-width: 300px;
+	max-height: 300px;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+<head>
+	<title>Welcome page</title>
+	
+	<link rel="stylesheet" type="text/css" href="{% static "css/app11/display.css" %}">
+</head>
+<body>
+	<marquee>Heyyy......Beab</marquee>
+	<h1 id="c1">{{ insert_msg }}</h1>
+	<h1 id="c2"> The Server Time : {{ insert_date }}</h1>
+	<img src="{% static "image/app11/cute.jpg" %}">
+	
+</body>
+</html>
